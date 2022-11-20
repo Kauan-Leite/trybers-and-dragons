@@ -1,9 +1,10 @@
 import { FullChar } from './Interfaces';
+import SimpleFighter from './SimpleFighter';
 
 interface Fighter extends FullChar {
-  attack(enemy:Fighter): void;
+  attack(enemy: SimpleFighter): void;
 
-  special?(enemy:Fighter): void;
+  special?(enemy: SimpleFighter): void;
   
   levelUp(): void;
 }
