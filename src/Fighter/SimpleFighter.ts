@@ -1,9 +1,7 @@
-interface SimpleFighter {
-  lifePoints: number;
-  strength: number;
+import { BasicChar } from './Interfaces';
 
+interface SimpleFighter extends BasicChar {
   attack(enemy:SimpleFighter): void;
-  receiveDamage(attackPoints:number): number;
 }
 
 export default SimpleFighter;

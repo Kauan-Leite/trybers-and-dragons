@@ -1,18 +1,11 @@
-import Energy from '../Energy';
+import { FullChar } from './Interfaces';
 
-interface Fighter {
-  lifePoints: number;
-  strength: number;
-  defense: number;
-  energy?: Energy;
-
+interface Fighter extends FullChar {
   attack(enemy:Fighter): void;
 
   special?(enemy:Fighter): void;
-
+  
   levelUp(): void;
-
-  receiveDamage(attackPoints: number): number;
 }
 
 export default Fighter;
