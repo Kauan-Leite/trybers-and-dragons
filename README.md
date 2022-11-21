@@ -1,10 +1,22 @@
-# :construction: README em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto.
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+# ⚔️ Trybers and Dragons 🐲
+
+## :microscope: Desenvolvimento
+
+Projeto desenvolvido na <a href="https://betrybe.com/" target="_blank">Trybe</a> durante o módulo de Back-End!
+
+Nesse projeto foi desenvolvido o back-end de um jogo, onde as suas principais funcionalidades são:
+* Criação de Personagens;
+* Seleção de Raça;
+* Seleção de Classe;
+* Criação de Inimigos;
+* Batalhas
+* PVP (Player Vs. Player);
+* PVE (Player Vs. Environment);
+
+## ⚙️ Tecnologias
+
+- Programação Orientada a Objetos (POO)
+- TypeScript
+- Principios SOLID
+- Context API
+- JavaScript
