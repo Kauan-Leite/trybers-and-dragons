@@ -18,5 +18,4 @@ Nesse projeto foi desenvolvido o back-end de um jogo, onde as suas principais fu
 - Programação Orientada a Objetos (POO)
 - TypeScript
 - Principios SOLID
-- Context API
 - JavaScript
